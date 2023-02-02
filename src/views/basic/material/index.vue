@@ -19,7 +19,8 @@ export default {
             type: 'input',
             label: '物料编码',
             formConfig: {
-              rules: [{ required: true, message: '物料编码不能为空' }]
+              rules: [{ required: true, message: '物料编码不能为空' }],
+              edit: { disabled: true }
             }
           },
           {
