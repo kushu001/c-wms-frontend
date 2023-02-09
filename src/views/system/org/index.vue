@@ -45,7 +45,7 @@ export default {
         columns: [
           {
             name: 'name',
-            label: '公司/部门名称',
+            label: '公司/部门',
             formConfig: {
               rules: [{ required: true, message: '请输入公司/部门名称', trigger: 'blur' }]
             }
@@ -57,7 +57,7 @@ export default {
               type: 'user-select-table',
               rules: [{ required: true, message: '请选择负责人' }]
             },
-            label: '部门负责人'
+            label: '负责人'
           },
           {
             name: 'create_time',

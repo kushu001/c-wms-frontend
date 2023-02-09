@@ -73,10 +73,10 @@ export default {
         columns: [
           {
             name: 'name',
-            label: '字典项名称',
+            label: '名称',
             formConfig: {
               rules: [
-                { required: true, message: '请输入字典名称', trigger: 'blur' },
+                { required: true, message: '请输入字典项名称', trigger: 'blur' },
                 { min: 1, max: 10, message: '长度在 1 到 10 个字符', trigger: 'blur' }
               ]
             }

@@ -36,9 +36,39 @@ export default {
             label: '规格'
           },
           {
+            name: 'brand',
+            type: 'input',
+            label: '品牌'
+          },
+          {
             name: 'model',
             type: 'input',
             label: '型号'
+          },
+          {
+            name: 'unit',
+            type: 'input',
+            label: '单位'
+          },
+          {
+            name: 'supplier',
+            type: 'input',
+            label: '供应商'
+          },
+          {
+            name: 'status',
+            type: 'select',
+            label: '状态'
+          },
+          {
+            name: 'remark',
+            label: '备注',
+            formConfig: {
+              type: 'textarea'
+            },
+            searchConfig: {
+              hidden: true
+            }
           }
         ]
       }
